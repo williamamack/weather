@@ -1,1 +1,0 @@
-##This is my first weather api pulling from the Weather API. It uses vanilla JS, HTML and CSS.
