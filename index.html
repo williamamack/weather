@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
   </head>
-  <body>
+  <body class="blurred">
  <header class="header">
   <div class="header-left">
     <img src="icons/sun.svg" alt="" class="weather-icon large" data-current-icon />
@@ -40,7 +40,7 @@
     <div class="info-group">
       <div class="label">
         Precip</div>
-     <spandiv><span data-current-precip>.1</span><span class="value-sub-info">in</span></div>
+     <spandiv><span data-current-precip>0.1</span><span class="value-sub-info">in</span></div>
     </div>
   </div>
  </header>
@@ -386,7 +386,7 @@
  <template id="day-card-template">
   <div class="day-card">
     <img data-icon class="weather-icon">
-    <div class="day-card-day" data-date></div>
+    <div class="day-card-day" data-day></div>
     <div><span data-temp></span><span>&deg;</span></div>
   </div>
  </template>
